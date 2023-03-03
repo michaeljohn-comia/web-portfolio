@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER STYLES*/
+.container-header {
+    height: 100%;
+    width: 100%;
+    background-color: #232931;
+    opacity: 80%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.wrapper-navigation {
+    font-family: sans-serif;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-header {
+    cursor: pointer;
+}
+
+.list-header:hover {
+    text-decoration: underline #FF6B6B;
+    transition: all 0.50s;
+    color: #FF6B6B;
+    ;
+}
+
+.element-list {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: white;
+    gap: 5rem;
+}
+
+/*CONTENT SECTION*/
+/*Parent ng dalawang BOX*/
+.container-content {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+/*box left*/
+.container-box__left {
+    background-color: #232931;
+    height: 100vh;
+    width: 100%;
+}
+
+/*box right*/
+.container-box__right {
+    background-color: #EEEEEE;
+    height: 100vh;
+    width: 100%;
+}
+
+/*BOX INSIDE*/
+.wrapper-box__inside {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    opacity: 90%;
+}
+
+.profile-box__left {
+    background-color: #EEEEEE;
+    height: 50vh;
+    width: 50vw;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #232931;
+    min-width: 200px;
+    border-radius: 2rem 0 0 2rem;
+    gap: 1rem;
+
+}
+
+.profile-box__right {
+    background-color: #232931;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    min-width: 200px;
+    gap: 1rem;
+    border-radius: 0rem 2rem 2rem 0rem;
+}
+
+/*Kaliwang BOX*/
+#profile-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#course {
+    font-style: italic;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*KANAN NA LOOB NA BOX*/
+#greetings {
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#greetings-description {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*ABOUT*/
+
+.wrapper-about {
+    background-color: #393E46;
+    height: 100%;
+    width: 100%;
+    color: #F7FFF7;
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+#about-header {
+    font-size: 56px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#about-description {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*EDUCATION*/
+
+.container-education {
+
+    background-color: #4ECCA3;
+    height: 100%;
+    width: 100%;
+    color: #1A535C;
+    padding: 1rem;
+    padding-bottom: 5rem;
+
+}
+
+#education-header {
+
+    font-size: 56px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    color: #F7FFF7;
+}
+
+.wrapper-education {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.school-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.school1 {
+    display: flex;
+    gap: 1rem;
+}
+
+/*BSU*/
+.school-bsu {
+    background-color: #F7FFF7;
+    height: 100%;
+    width: 100%;
+    color: grey;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: #1A535C;
+
+}
+
+#bsu-photo {
+    height: 100px;
+    width: 100px;
+}
+
+/*STI*/
+.school-shs {
+    background-color: #F7FFF7;
+    height: 100%;
+    width: 100%;
+    color: grey;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: #1A535C;
+}
+
+#sti-photo {
+    height: 100px;
+    width: 100px;
+}
+
+.school2 {
+    display: flex;
+    gap: 1rem;
+}
+
+/*CORE SCIENCE ACADEMY*/
+.school-jhs {
+    background-color: #F7FFF7;
+    height: 100%;
+    width: 100%;
+    color: grey;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: #1A535C;
+}
+
+#csa-photo {
+    height: 100px;
+    width: 100px;
+}
+
+/*ELEMENTARY*/
+.school-elem {
+    background-color: #F7FFF7;
+    height: 100%;
+    width: 100%;
+    color: grey;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: #1A535C;
+}
+
+#elem-photo {
+    height: 100px;
+    width: 100px;
+}
+
+/*LANGUAGE AND KEY SKILLS*/
+.container-language__keyskills {
+    height: 100%;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+}
+
+.language-keyskills__header {
+    font-size: 56px;
+}
+
+#language {
+    font-size: 80px;
+}
+
+.list {
+    list-style: none;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*LANGUAGE*/
+.wrapper-language {
+    width: 50%;
+    background-color: #232931;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: #f7fff7;
+}
+
+
+/*Key Skills*/
+.wrapper-keyskills {
+    width: 50%;
+    background-color: #EEEEEE;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: #1a535c;
+}
+
+#list2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+
+#list3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+
+/*Contact*/
+#contact {
+    font-size: 52px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F7FFF7;
+}
+
+.container-contact {
+    height: 100%;
+    width: 100%;
+    background-color: #393E46;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+
+.wrapper-contact {
+    background-color: #EEEEEE;
+    display: contents;
+}
+
+input {
+    color: #EEEEEE;
+    padding: 14px 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 30vw;
+}
+
+
+
+.contact-form {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    color: #EEEEEE;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form1 {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+
+}
+
+.question1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.question2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.question3 {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 100px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: #EEEEEE;
+    cursor: pointer;
+}
+
+.message-form__textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+
+/*FOOTER*/
+.container-footer {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper-footer {
+    background-color: #4ECCA3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+    opacity: 90%;
+}
+
+.footer-header {
+    color: #F7FFF7;
+    font-size: 24px;
+}
+
+.contact-photo {
+    height: 25px;
+    width: 25px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+}
